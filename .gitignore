@@ -1,0 +1,37 @@
+﻿# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated backups and local state
+data/backups/
+data/raw/*.sqlite-wal
+data/raw/*.sqlite-shm
+
+# Generated analytical outputs
+data/outputs/*
+!data/outputs/.gitkeep
+
+# Generated dashboard figures
+dashboard/figures/*
+!dashboard/figures/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test caches
+.pytest_cache/

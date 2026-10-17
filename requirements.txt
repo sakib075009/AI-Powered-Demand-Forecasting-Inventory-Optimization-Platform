@@ -1,0 +1,21 @@
+﻿
+# Data processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+
+# Forecasting and scientific computing
+scikit-learn
+statsmodels
+scipy
+
+# Excel data support
+openpyxl
+
+# Testing
+pytest
+
+# Inventory optimization
+pulp[cbc]>=3.3,<4
