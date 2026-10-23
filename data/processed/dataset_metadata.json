@@ -1,0 +1,55 @@
+{
+  "currency": "BDT",
+  "currency_storage": "integer poisha; 100 poisha = BDT 1",
+  "dataset_name": "project02_synthetic_supply_chain",
+  "end_date": "2026-10-23",
+  "future_phase_tables_left_empty": [
+    "forecast_runs",
+    "forecast_results",
+    "forecast_evaluations",
+    "planning_runs",
+    "replenishment_recommendations"
+  ],
+  "generated_at_utc": "2026-10-23T05:41:46+00:00",
+  "generator_version": "0.1.0",
+  "history_days": 180,
+  "metrics": {
+    "demand_rows": 6480,
+    "inventory_movement_rows": 6848,
+    "inventory_snapshot_rows": 6480,
+    "purchase_order_line_rows": 453,
+    "purchase_order_rows": 453,
+    "stockout_days": 24
+  },
+  "purchase_order_location_convention": "The approved purchase_orders schema has no location_id. In this synthetic dataset only, location allocation is encoded in external_reference as SIM-{location_code}-P{product_id}-{sequence}; use this convention only to interpret generated demo records, not as a normalized production design.",
+  "row_counts": {
+    "demand_history": 6480,
+    "forecast_evaluations": 0,
+    "forecast_results": 0,
+    "forecast_runs": 0,
+    "inventory_movements": 6848,
+    "inventory_snapshots": 6480,
+    "locations": 3,
+    "planning_runs": 0,
+    "products": 12,
+    "purchase_order_lines": 453,
+    "purchase_orders": 453,
+    "replenishment_recommendations": 0,
+    "supplier_products": 24,
+    "suppliers": 5
+  },
+  "seed": 20261023,
+  "start_date": "2026-04-27",
+  "synthetic_data": true,
+  "tables_populated": [
+    "products",
+    "locations",
+    "suppliers",
+    "supplier_products",
+    "demand_history",
+    "inventory_snapshots",
+    "inventory_movements",
+    "purchase_orders",
+    "purchase_order_lines"
+  ]
+}

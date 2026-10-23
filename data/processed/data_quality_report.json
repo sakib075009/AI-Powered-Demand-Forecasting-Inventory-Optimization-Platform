@@ -1,0 +1,153 @@
+{
+  "checks": [
+    {
+      "detail": "All 14 approved tables exist.",
+      "name": "required_tables",
+      "passed": true
+    },
+    {
+      "detail": "No foreign-key violations.",
+      "name": "foreign_key_integrity",
+      "passed": true
+    },
+    {
+      "detail": "Invalid demand rows: 0 (expected 0).",
+      "name": "demand_business_rules",
+      "passed": true
+    },
+    {
+      "detail": "Duplicate product-location-date groups: 0 (expected 0).",
+      "name": "demand_unique_product_location_date",
+      "passed": true
+    },
+    {
+      "detail": "Malformed/noncanonical demand dates: 0 (expected 0).",
+      "name": "demand_iso_dates",
+      "passed": true
+    },
+    {
+      "detail": "2026-04-27 through 2026-10-23: 180 distinct dates, 36 pairs, 6480 rows; expected 180 dates and 6480 rows.",
+      "name": "complete_daily_demand_coverage",
+      "passed": true
+    },
+    {
+      "detail": "Expected 2026-04-27; observed 2026-04-27.",
+      "name": "expected_start_date",
+      "passed": true
+    },
+    {
+      "detail": "Expected 2026-10-23; observed 2026-10-23.",
+      "name": "expected_end_date",
+      "passed": true
+    },
+    {
+      "detail": "Every product-location pair has one row per calendar day.",
+      "name": "daily_demand_per_pair",
+      "passed": true
+    },
+    {
+      "detail": "Invalid snapshot rows: 0 (expected 0).",
+      "name": "inventory_snapshot_bounds",
+      "passed": true
+    },
+    {
+      "detail": "Duplicate daily snapshot groups: 0 (expected 0).",
+      "name": "inventory_snapshot_unique_daily",
+      "passed": true
+    },
+    {
+      "detail": "Demand/snapshot date-pair mismatches: 0 (expected 0).",
+      "name": "demand_snapshot_date_alignment",
+      "passed": true
+    },
+    {
+      "detail": "Invalid movement signs: 0 (expected 0).",
+      "name": "inventory_movement_signs",
+      "passed": true
+    },
+    {
+      "detail": "Sales movements inconsistent with demand history: 0 (expected 0).",
+      "name": "sales_movement_matches_demand",
+      "passed": true
+    },
+    {
+      "detail": "Positive-sales rows without matching movement: 0 (expected 0).",
+      "name": "every_sale_has_inventory_movement",
+      "passed": true
+    },
+    {
+      "detail": "Daily on-hand changes reconcile to signed inventory movements after each pair's baseline snapshot.",
+      "name": "inventory_daily_reconciliation",
+      "passed": true
+    },
+    {
+      "detail": "Purchase-order quantities reconcile with order status.",
+      "name": "purchase_order_reconciliation",
+      "passed": true
+    },
+    {
+      "detail": "Application-level integrity checks passed.",
+      "name": "application_integrity_rules",
+      "passed": true
+    },
+    {
+      "detail": "Forecasting/planning tables are empty as expected for this phase.",
+      "name": "future_tables_empty",
+      "passed": true
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 19,
+  "errors": [],
+  "metrics": {
+    "demand_coverage": {
+      "distinct_dates": 180,
+      "end_date": "2026-10-23",
+      "expected_calendar_days": 180,
+      "expected_rows_if_complete": 6480,
+      "product_location_pairs": 36,
+      "rows": 6480,
+      "start_date": "2026-04-27"
+    },
+    "future_phase_table_rows": {
+      "forecast_evaluations": 0,
+      "forecast_results": 0,
+      "forecast_runs": 0,
+      "planning_runs": 0,
+      "replenishment_recommendations": 0
+    },
+    "row_counts": {
+      "demand_history": 6480,
+      "forecast_evaluations": 0,
+      "forecast_results": 0,
+      "forecast_runs": 0,
+      "inventory_movements": 6848,
+      "inventory_snapshots": 6480,
+      "locations": 3,
+      "planning_runs": 0,
+      "products": 12,
+      "purchase_order_lines": 453,
+      "purchase_orders": 453,
+      "replenishment_recommendations": 0,
+      "supplier_products": 24,
+      "suppliers": 5
+    }
+  },
+  "row_counts": {
+    "demand_history": 6480,
+    "forecast_evaluations": 0,
+    "forecast_results": 0,
+    "forecast_runs": 0,
+    "inventory_movements": 6848,
+    "inventory_snapshots": 6480,
+    "locations": 3,
+    "planning_runs": 0,
+    "products": 12,
+    "purchase_order_lines": 453,
+    "purchase_orders": 453,
+    "replenishment_recommendations": 0,
+    "supplier_products": 24,
+    "suppliers": 5
+  },
+  "status": "PASS"
+}

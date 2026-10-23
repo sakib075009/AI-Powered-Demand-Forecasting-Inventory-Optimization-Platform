@@ -35,3 +35,7 @@ Thumbs.db
 
 # Test caches
 .pytest_cache/
+/database/*.db
+/database/*.db-journal
+/database/*.db-shm
+/database/*.db-wal

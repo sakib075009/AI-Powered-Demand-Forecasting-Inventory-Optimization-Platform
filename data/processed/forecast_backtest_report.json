@@ -1,0 +1,947 @@
+{
+  "database": "database\\project02.db",
+  "evaluation_end_date": "2026-10-23",
+  "evaluation_start_date": "2026-09-26",
+  "method": "chronological_fixed_origin_holdout",
+  "models": [
+    {
+      "evaluation_end_date": "2026-10-23",
+      "evaluation_rows": 36,
+      "evaluation_start_date": "2026-09-26",
+      "forecast_rows": 1008,
+      "forecast_run_id": 1,
+      "model_name": "naive_last_value",
+      "overall_metrics": {
+        "forecast_bias": 1.4196428571428572,
+        "mae": 2.8601190476190474,
+        "rmse": 3.6448212881048394,
+        "wape": 0.5256153144940747
+      },
+      "per_series_metrics": [
+        {
+          "forecast_bias": 0.10714285714285714,
+          "location_id": 1,
+          "mae": 1.75,
+          "product_id": 1,
+          "rmse": 2.3979157616563596,
+          "wape": 0.296969696969697
+        },
+        {
+          "forecast_bias": 3.142857142857143,
+          "location_id": 2,
+          "mae": 3.2857142857142856,
+          "product_id": 1,
+          "rmse": 3.9188190640986296,
+          "wape": 0.6764705882352942
+        },
+        {
+          "forecast_bias": -0.75,
+          "location_id": 3,
+          "mae": 1.6785714285714286,
+          "product_id": 1,
+          "rmse": 2.2280677086403173,
+          "wape": 0.3533834586466165
+        },
+        {
+          "forecast_bias": 0.5,
+          "location_id": 1,
+          "mae": 1.4285714285714286,
+          "product_id": 2,
+          "rmse": 1.8708286933869707,
+          "wape": 0.5714285714285714
+        },
+        {
+          "forecast_bias": -0.7142857142857143,
+          "location_id": 2,
+          "mae": 1.8571428571428572,
+          "product_id": 2,
+          "rmse": 2.345207879911715,
+          "wape": 0.3939393939393939
+        },
+        {
+          "forecast_bias": -1.2857142857142858,
+          "location_id": 3,
+          "mae": 1.9285714285714286,
+          "product_id": 2,
+          "rmse": 2.6049403612586386,
+          "wape": 0.45
+        },
+        {
+          "forecast_bias": 1.8214285714285714,
+          "location_id": 1,
+          "mae": 2.25,
+          "product_id": 3,
+          "rmse": 2.9093445506309,
+          "wape": 0.31343283582089554
+        },
+        {
+          "forecast_bias": -1.1428571428571428,
+          "location_id": 2,
+          "mae": 2.142857142857143,
+          "product_id": 3,
+          "rmse": 2.7255405754769875,
+          "wape": 0.3488372093023256
+        },
+        {
+          "forecast_bias": -0.21428571428571427,
+          "location_id": 3,
+          "mae": 2.5,
+          "product_id": 3,
+          "rmse": 2.9760952365713798,
+          "wape": 0.40229885057471265
+        },
+        {
+          "forecast_bias": 3.642857142857143,
+          "location_id": 1,
+          "mae": 3.9285714285714284,
+          "product_id": 4,
+          "rmse": 4.35069780938316,
+          "wape": 0.6179775280898876
+        },
+        {
+          "forecast_bias": -0.75,
+          "location_id": 2,
+          "mae": 1.4642857142857142,
+          "product_id": 4,
+          "rmse": 1.8612591743993405,
+          "wape": 0.3904761904761905
+        },
+        {
+          "forecast_bias": 1.7142857142857142,
+          "location_id": 3,
+          "mae": 3.2142857142857144,
+          "product_id": 4,
+          "rmse": 3.7129118338191502,
+          "wape": 0.4411764705882353
+        },
+        {
+          "forecast_bias": 1.1071428571428572,
+          "location_id": 1,
+          "mae": 2.3214285714285716,
+          "product_id": 5,
+          "rmse": 2.6659225152173605,
+          "wape": 0.4744525547445255
+        },
+        {
+          "forecast_bias": 4.928571428571429,
+          "location_id": 2,
+          "mae": 5.357142857142857,
+          "product_id": 5,
+          "rmse": 5.843188953205018,
+          "wape": 0.7575757575757576
+        },
+        {
+          "forecast_bias": 5.714285714285714,
+          "location_id": 3,
+          "mae": 5.714285714285714,
+          "product_id": 5,
+          "rmse": 6.546536707079771,
+          "wape": 0.7843137254901961
+        },
+        {
+          "forecast_bias": 2.9642857142857144,
+          "location_id": 1,
+          "mae": 3.107142857142857,
+          "product_id": 6,
+          "rmse": 3.5807022455697948,
+          "wape": 0.7699115044247787
+        },
+        {
+          "forecast_bias": -1.75,
+          "location_id": 2,
+          "mae": 2.5357142857142856,
+          "product_id": 6,
+          "rmse": 3.234854821206929,
+          "wape": 0.37566137566137564
+        },
+        {
+          "forecast_bias": -1.4642857142857142,
+          "location_id": 3,
+          "mae": 2.6785714285714284,
+          "product_id": 6,
+          "rmse": 3.234854821206929,
+          "wape": 0.6
+        },
+        {
+          "forecast_bias": 4.75,
+          "location_id": 1,
+          "mae": 4.75,
+          "product_id": 7,
+          "rmse": 5.254249980457996,
+          "wape": 0.9047619047619048
+        },
+        {
+          "forecast_bias": 3.2142857142857144,
+          "location_id": 2,
+          "mae": 3.357142857142857,
+          "product_id": 7,
+          "rmse": 3.789082059964241,
+          "wape": 0.5802469135802469
+        },
+        {
+          "forecast_bias": -0.35714285714285715,
+          "location_id": 3,
+          "mae": 1.4285714285714286,
+          "product_id": 7,
+          "rmse": 1.7928429140015905,
+          "wape": 0.26666666666666666
+        },
+        {
+          "forecast_bias": 7.25,
+          "location_id": 1,
+          "mae": 7.25,
+          "product_id": 8,
+          "rmse": 7.627487884524723,
+          "wape": 0.9354838709677419
+        },
+        {
+          "forecast_bias": 3.4642857142857144,
+          "location_id": 2,
+          "mae": 3.5357142857142856,
+          "product_id": 8,
+          "rmse": 4.127434346626762,
+          "wape": 0.6387096774193548
+        },
+        {
+          "forecast_bias": 0.35714285714285715,
+          "location_id": 3,
+          "mae": 2.0714285714285716,
+          "product_id": 8,
+          "rmse": 2.449489742783178,
+          "wape": 0.4461538461538462
+        },
+        {
+          "forecast_bias": 1.25,
+          "location_id": 1,
+          "mae": 2.107142857142857,
+          "product_id": 9,
+          "rmse": 2.718980901524897,
+          "wape": 0.31216931216931215
+        },
+        {
+          "forecast_bias": 1.7857142857142858,
+          "location_id": 2,
+          "mae": 2.2857142857142856,
+          "product_id": 9,
+          "rmse": 2.6457513110645907,
+          "wape": 0.7111111111111111
+        },
+        {
+          "forecast_bias": 0.07142857142857142,
+          "location_id": 3,
+          "mae": 2.0,
+          "product_id": 9,
+          "rmse": 2.390457218668787,
+          "wape": 0.3373493975903614
+        },
+        {
+          "forecast_bias": -1.0,
+          "location_id": 1,
+          "mae": 2.0714285714285716,
+          "product_id": 10,
+          "rmse": 2.6859422395661667,
+          "wape": 0.4142857142857143
+        },
+        {
+          "forecast_bias": -1.3214285714285714,
+          "location_id": 2,
+          "mae": 2.392857142857143,
+          "product_id": 10,
+          "rmse": 3.267808352485107,
+          "wape": 0.32682926829268294
+        },
+        {
+          "forecast_bias": -1.5,
+          "location_id": 3,
+          "mae": 2.0714285714285716,
+          "product_id": 10,
+          "rmse": 2.6457513110645907,
+          "wape": 0.4603174603174603
+        },
+        {
+          "forecast_bias": 0.42857142857142855,
+          "location_id": 1,
+          "mae": 2.2857142857142856,
+          "product_id": 11,
+          "rmse": 2.8284271247461903,
+          "wape": 0.3018867924528302
+        },
+        {
+          "forecast_bias": 5.428571428571429,
+          "location_id": 2,
+          "mae": 5.428571428571429,
+          "product_id": 11,
+          "rmse": 5.873670062235365,
+          "wape": 0.9743589743589743
+        },
+        {
+          "forecast_bias": 1.3928571428571428,
+          "location_id": 3,
+          "mae": 1.8928571428571428,
+          "product_id": 11,
+          "rmse": 2.2598988599366248,
+          "wape": 0.4108527131782946
+        },
+        {
+          "forecast_bias": 2.3214285714285716,
+          "location_id": 1,
+          "mae": 2.3214285714285716,
+          "product_id": 12,
+          "rmse": 2.809422919899591,
+          "wape": 0.6310679611650486
+        },
+        {
+          "forecast_bias": 2.9642857142857144,
+          "location_id": 2,
+          "mae": 3.4642857142857144,
+          "product_id": 12,
+          "rmse": 4.187566630599958,
+          "wape": 0.6879432624113475
+        },
+        {
+          "forecast_bias": 3.0357142857142856,
+          "location_id": 3,
+          "mae": 3.107142857142857,
+          "product_id": 12,
+          "rmse": 3.630230217020875,
+          "wape": 0.7837837837837838
+        }
+      ],
+      "series_count": 36,
+      "test_days": 28,
+      "training_days": 152,
+      "training_end_date": "2026-09-25",
+      "training_start_date": "2026-04-27"
+    },
+    {
+      "evaluation_end_date": "2026-10-23",
+      "evaluation_rows": 36,
+      "evaluation_start_date": "2026-09-26",
+      "forecast_rows": 1008,
+      "forecast_run_id": 2,
+      "model_name": "seasonal_naive_7",
+      "overall_metrics": {
+        "forecast_bias": 0.18948412698412698,
+        "mae": 2.4950396825396823,
+        "rmse": 3.183383195819908,
+        "wape": 0.4585232452142206
+      },
+      "per_series_metrics": [
+        {
+          "forecast_bias": -0.75,
+          "location_id": 1,
+          "mae": 3.107142857142857,
+          "product_id": 1,
+          "rmse": 3.736881817008094,
+          "wape": 0.5272727272727272
+        },
+        {
+          "forecast_bias": 0.42857142857142855,
+          "location_id": 2,
+          "mae": 2.357142857142857,
+          "product_id": 1,
+          "rmse": 2.8284271247461903,
+          "wape": 0.4852941176470588
+        },
+        {
+          "forecast_bias": 1.9642857142857142,
+          "location_id": 3,
+          "mae": 2.75,
+          "product_id": 1,
+          "rmse": 3.4897810000874596,
+          "wape": 0.5789473684210527
+        },
+        {
+          "forecast_bias": 0.21428571428571427,
+          "location_id": 1,
+          "mae": 1.5714285714285714,
+          "product_id": 2,
+          "rmse": 1.9639610121239315,
+          "wape": 0.6285714285714286
+        },
+        {
+          "forecast_bias": 1.1428571428571428,
+          "location_id": 2,
+          "mae": 2.5,
+          "product_id": 2,
+          "rmse": 3.3273756282434617,
+          "wape": 0.5303030303030303
+        },
+        {
+          "forecast_bias": 1.0,
+          "location_id": 3,
+          "mae": 3.0,
+          "product_id": 2,
+          "rmse": 3.7511902872859664,
+          "wape": 0.7
+        },
+        {
+          "forecast_bias": -0.03571428571428571,
+          "location_id": 1,
+          "mae": 1.8214285714285714,
+          "product_id": 3,
+          "rmse": 2.5,
+          "wape": 0.2537313432835821
+        },
+        {
+          "forecast_bias": 0.42857142857142855,
+          "location_id": 2,
+          "mae": 2.142857142857143,
+          "product_id": 3,
+          "rmse": 2.659215781283755,
+          "wape": 0.3488372093023256
+        },
+        {
+          "forecast_bias": -0.5,
+          "location_id": 3,
+          "mae": 3.2142857142857144,
+          "product_id": 3,
+          "rmse": 3.760699023168052,
+          "wape": 0.5172413793103449
+        },
+        {
+          "forecast_bias": 0.5,
+          "location_id": 1,
+          "mae": 2.5714285714285716,
+          "product_id": 4,
+          "rmse": 3.2071349029490928,
+          "wape": 0.4044943820224719
+        },
+        {
+          "forecast_bias": 0.10714285714285714,
+          "location_id": 2,
+          "mae": 1.75,
+          "product_id": 4,
+          "rmse": 2.1957751641341994,
+          "wape": 0.4666666666666667
+        },
+        {
+          "forecast_bias": 1.1428571428571428,
+          "location_id": 3,
+          "mae": 2.5,
+          "product_id": 4,
+          "rmse": 3.24037034920393,
+          "wape": 0.3431372549019608
+        },
+        {
+          "forecast_bias": 0.5357142857142857,
+          "location_id": 1,
+          "mae": 2.1785714285714284,
+          "product_id": 5,
+          "rmse": 2.5704363164923687,
+          "wape": 0.44525547445255476
+        },
+        {
+          "forecast_bias": -0.21428571428571427,
+          "location_id": 2,
+          "mae": 2.2142857142857144,
+          "product_id": 5,
+          "rmse": 3.070597894314954,
+          "wape": 0.31313131313131315
+        },
+        {
+          "forecast_bias": -0.5714285714285714,
+          "location_id": 3,
+          "mae": 3.142857142857143,
+          "product_id": 5,
+          "rmse": 3.927922024247863,
+          "wape": 0.43137254901960786
+        },
+        {
+          "forecast_bias": 0.9642857142857143,
+          "location_id": 1,
+          "mae": 2.392857142857143,
+          "product_id": 6,
+          "rmse": 3.0413812651491097,
+          "wape": 0.5929203539823009
+        },
+        {
+          "forecast_bias": -0.17857142857142858,
+          "location_id": 2,
+          "mae": 2.107142857142857,
+          "product_id": 6,
+          "rmse": 2.732084499843611,
+          "wape": 0.31216931216931215
+        },
+        {
+          "forecast_bias": -0.4642857142857143,
+          "location_id": 3,
+          "mae": 3.107142857142857,
+          "product_id": 6,
+          "rmse": 3.688786095335816,
+          "wape": 0.696
+        },
+        {
+          "forecast_bias": 1.1785714285714286,
+          "location_id": 1,
+          "mae": 2.3214285714285716,
+          "product_id": 7,
+          "rmse": 3.017804310611087,
+          "wape": 0.4421768707482993
+        },
+        {
+          "forecast_bias": -0.5,
+          "location_id": 2,
+          "mae": 1.8571428571428572,
+          "product_id": 7,
+          "rmse": 2.390457218668787,
+          "wape": 0.32098765432098764
+        },
+        {
+          "forecast_bias": -0.07142857142857142,
+          "location_id": 3,
+          "mae": 2.142857142857143,
+          "product_id": 7,
+          "rmse": 3.1847852585154217,
+          "wape": 0.4
+        },
+        {
+          "forecast_bias": 0.9642857142857143,
+          "location_id": 1,
+          "mae": 3.75,
+          "product_id": 8,
+          "rmse": 4.539509098695899,
+          "wape": 0.4838709677419355
+        },
+        {
+          "forecast_bias": 0.17857142857142858,
+          "location_id": 2,
+          "mae": 2.107142857142857,
+          "product_id": 8,
+          "rmse": 2.4275207811380612,
+          "wape": 0.38064516129032255
+        },
+        {
+          "forecast_bias": -0.9285714285714286,
+          "location_id": 3,
+          "mae": 2.642857142857143,
+          "product_id": 8,
+          "rmse": 3.116774889895918,
+          "wape": 0.5692307692307692
+        },
+        {
+          "forecast_bias": -0.75,
+          "location_id": 1,
+          "mae": 2.8214285714285716,
+          "product_id": 9,
+          "rmse": 3.3327380420823443,
+          "wape": 0.41798941798941797
+        },
+        {
+          "forecast_bias": 0.9285714285714286,
+          "location_id": 2,
+          "mae": 1.9285714285714286,
+          "product_id": 9,
+          "rmse": 2.3145502494313788,
+          "wape": 0.6
+        },
+        {
+          "forecast_bias": 0.35714285714285715,
+          "location_id": 3,
+          "mae": 1.7142857142857142,
+          "product_id": 9,
+          "rmse": 2.220038609702865,
+          "wape": 0.2891566265060241
+        },
+        {
+          "forecast_bias": 0.2857142857142857,
+          "location_id": 1,
+          "mae": 2.4285714285714284,
+          "product_id": 10,
+          "rmse": 2.9277002188455996,
+          "wape": 0.4857142857142857
+        },
+        {
+          "forecast_bias": -2.892857142857143,
+          "location_id": 2,
+          "mae": 3.6785714285714284,
+          "product_id": 10,
+          "rmse": 4.602018190812747,
+          "wape": 0.5024390243902439
+        },
+        {
+          "forecast_bias": -0.6428571428571429,
+          "location_id": 3,
+          "mae": 2.0714285714285716,
+          "product_id": 10,
+          "rmse": 2.53546276418555,
+          "wape": 0.4603174603174603
+        },
+        {
+          "forecast_bias": 0.8571428571428571,
+          "location_id": 1,
+          "mae": 2.9285714285714284,
+          "product_id": 11,
+          "rmse": 3.6839419880650364,
+          "wape": 0.3867924528301887
+        },
+        {
+          "forecast_bias": -0.14285714285714285,
+          "location_id": 2,
+          "mae": 2.2857142857142856,
+          "product_id": 11,
+          "rmse": 2.7774602993176543,
+          "wape": 0.41025641025641024
+        },
+        {
+          "forecast_bias": 0.39285714285714285,
+          "location_id": 3,
+          "mae": 2.0357142857142856,
+          "product_id": 11,
+          "rmse": 2.3979157616563596,
+          "wape": 0.4418604651162791
+        },
+        {
+          "forecast_bias": 0.75,
+          "location_id": 1,
+          "mae": 2.1785714285714284,
+          "product_id": 12,
+          "rmse": 2.65249208966102,
+          "wape": 0.5922330097087378
+        },
+        {
+          "forecast_bias": 1.3928571428571428,
+          "location_id": 2,
+          "mae": 3.9642857142857144,
+          "product_id": 12,
+          "rmse": 5.024937810560445,
+          "wape": 0.7872340425531915
+        },
+        {
+          "forecast_bias": -0.25,
+          "location_id": 3,
+          "mae": 2.5357142857142856,
+          "product_id": 12,
+          "rmse": 2.958039891549808,
+          "wape": 0.6396396396396397
+        }
+      ],
+      "series_count": 36,
+      "test_days": 28,
+      "training_days": 152,
+      "training_end_date": "2026-09-25",
+      "training_start_date": "2026-04-27"
+    },
+    {
+      "evaluation_end_date": "2026-10-23",
+      "evaluation_rows": 36,
+      "evaluation_start_date": "2026-09-26",
+      "forecast_rows": 1008,
+      "forecast_run_id": 3,
+      "model_name": "moving_average_7",
+      "overall_metrics": {
+        "forecast_bias": 0.189484126984127,
+        "mae": 2.065901360544218,
+        "rmse": 2.5684230672056727,
+        "wape": 0.3796588097408517
+      },
+      "per_series_metrics": [
+        {
+          "forecast_bias": -0.7499999999999997,
+          "location_id": 1,
+          "mae": 1.9336734693877549,
+          "product_id": 1,
+          "rmse": 2.5101833415436543,
+          "wape": 0.3281385281385281
+        },
+        {
+          "forecast_bias": 0.42857142857142844,
+          "location_id": 2,
+          "mae": 1.8877551020408163,
+          "product_id": 1,
+          "rmse": 2.3797616069939544,
+          "wape": 0.3886554621848739
+        },
+        {
+          "forecast_bias": 1.9642857142857142,
+          "location_id": 3,
+          "mae": 2.4948979591836737,
+          "product_id": 1,
+          "rmse": 2.87405707696153,
+          "wape": 0.5252416756176155
+        },
+        {
+          "forecast_bias": 0.2142857142857144,
+          "location_id": 1,
+          "mae": 1.3877551020408165,
+          "product_id": 2,
+          "rmse": 1.8154664324484049,
+          "wape": 0.5551020408163266
+        },
+        {
+          "forecast_bias": 1.1428571428571426,
+          "location_id": 2,
+          "mae": 2.030612244897959,
+          "product_id": 2,
+          "rmse": 2.5091668671786134,
+          "wape": 0.4307359307359307
+        },
+        {
+          "forecast_bias": 0.9999999999999999,
+          "location_id": 3,
+          "mae": 2.2755102040816326,
+          "product_id": 2,
+          "rmse": 2.4764194033371023,
+          "wape": 0.530952380952381
+        },
+        {
+          "forecast_bias": -0.03571428571428533,
+          "location_id": 1,
+          "mae": 2.0357142857142856,
+          "product_id": 3,
+          "rmse": 2.2689114534669415,
+          "wape": 0.2835820895522388
+        },
+        {
+          "forecast_bias": 0.4285714285714283,
+          "location_id": 2,
+          "mae": 1.9693877551020407,
+          "product_id": 3,
+          "rmse": 2.5111994044638495,
+          "wape": 0.32059800664451826
+        },
+        {
+          "forecast_bias": -0.4999999999999999,
+          "location_id": 3,
+          "mae": 2.5,
+          "product_id": 3,
+          "rmse": 3.010186786529354,
+          "wape": 0.40229885057471265
+        },
+        {
+          "forecast_bias": 0.4999999999999996,
+          "location_id": 1,
+          "mae": 1.9795918367346939,
+          "product_id": 4,
+          "rmse": 2.4306713610247934,
+          "wape": 0.3113964686998395
+        },
+        {
+          "forecast_bias": 0.1071428571428572,
+          "location_id": 2,
+          "mae": 1.403061224489796,
+          "product_id": 4,
+          "rmse": 1.7068290207640744,
+          "wape": 0.37414965986394555
+        },
+        {
+          "forecast_bias": 1.142857142857143,
+          "location_id": 3,
+          "mae": 2.8877551020408165,
+          "product_id": 4,
+          "rmse": 3.486124097689266,
+          "wape": 0.396358543417367
+        },
+        {
+          "forecast_bias": 0.5357142857142859,
+          "location_id": 1,
+          "mae": 2.1173469387755106,
+          "product_id": 5,
+          "rmse": 2.483619807244816,
+          "wape": 0.43274244004171014
+        },
+        {
+          "forecast_bias": -0.21428571428571463,
+          "location_id": 2,
+          "mae": 2.346938775510204,
+          "product_id": 5,
+          "rmse": 3.146102220792177,
+          "wape": 0.33189033189033185
+        },
+        {
+          "forecast_bias": -0.5714285714285713,
+          "location_id": 3,
+          "mae": 2.683673469387755,
+          "product_id": 5,
+          "rmse": 3.2450904833144416,
+          "wape": 0.3683473389355742
+        },
+        {
+          "forecast_bias": 0.9642857142857143,
+          "location_id": 1,
+          "mae": 1.75,
+          "product_id": 6,
+          "rmse": 2.2280677086403173,
+          "wape": 0.4336283185840708
+        },
+        {
+          "forecast_bias": -0.17857142857142883,
+          "location_id": 2,
+          "mae": 2.1785714285714284,
+          "product_id": 6,
+          "rmse": 2.7264763834274732,
+          "wape": 0.32275132275132273
+        },
+        {
+          "forecast_bias": -0.4642857142857143,
+          "location_id": 3,
+          "mae": 2.392857142857143,
+          "product_id": 6,
+          "rmse": 2.921594476602509,
+          "wape": 0.536
+        },
+        {
+          "forecast_bias": 1.1785714285714288,
+          "location_id": 1,
+          "mae": 2.107142857142857,
+          "product_id": 7,
+          "rmse": 2.5364687006521005,
+          "wape": 0.4013605442176871
+        },
+        {
+          "forecast_bias": -0.5000000000000001,
+          "location_id": 2,
+          "mae": 1.6224489795918369,
+          "product_id": 7,
+          "rmse": 2.067730689447161,
+          "wape": 0.28042328042328046
+        },
+        {
+          "forecast_bias": -0.07142857142857155,
+          "location_id": 3,
+          "mae": 1.4489795918367345,
+          "product_id": 7,
+          "rmse": 1.7583619464415958,
+          "wape": 0.2704761904761905
+        },
+        {
+          "forecast_bias": 0.9642857142857135,
+          "location_id": 1,
+          "mae": 2.1683673469387754,
+          "product_id": 8,
+          "rmse": 2.558499241224616,
+          "wape": 0.2797893350888742
+        },
+        {
+          "forecast_bias": 0.1785714285714287,
+          "location_id": 2,
+          "mae": 1.8928571428571428,
+          "product_id": 8,
+          "rmse": 2.2508501795126756,
+          "wape": 0.3419354838709677
+        },
+        {
+          "forecast_bias": -0.9285714285714285,
+          "location_id": 3,
+          "mae": 2.0816326530612246,
+          "product_id": 8,
+          "rmse": 2.595128874940707,
+          "wape": 0.44835164835164837
+        },
+        {
+          "forecast_bias": -0.75,
+          "location_id": 1,
+          "mae": 2.1785714285714284,
+          "product_id": 9,
+          "rmse": 2.5284100029182657,
+          "wape": 0.32275132275132273
+        },
+        {
+          "forecast_bias": 0.9285714285714289,
+          "location_id": 2,
+          "mae": 1.795918367346939,
+          "product_id": 9,
+          "rmse": 2.1618208500602227,
+          "wape": 0.5587301587301587
+        },
+        {
+          "forecast_bias": 0.35714285714285704,
+          "location_id": 3,
+          "mae": 2.061224489795918,
+          "product_id": 9,
+          "rmse": 2.4159335036125373,
+          "wape": 0.3476764199655766
+        },
+        {
+          "forecast_bias": 0.2857142857142856,
+          "location_id": 1,
+          "mae": 2.061224489795918,
+          "product_id": 10,
+          "rmse": 2.5091668671786134,
+          "wape": 0.4122448979591837
+        },
+        {
+          "forecast_bias": -2.892857142857143,
+          "location_id": 2,
+          "mae": 3.1887755102040813,
+          "product_id": 10,
+          "rmse": 4.159449531868762,
+          "wape": 0.4355400696864111
+        },
+        {
+          "forecast_bias": -0.6428571428571427,
+          "location_id": 3,
+          "mae": 1.8265306122448979,
+          "product_id": 10,
+          "rmse": 2.2722819600838378,
+          "wape": 0.4058956916099773
+        },
+        {
+          "forecast_bias": 0.8571428571428574,
+          "location_id": 1,
+          "mae": 2.377551020408163,
+          "product_id": 11,
+          "rmse": 2.924212784351246,
+          "wape": 0.3140161725067385
+        },
+        {
+          "forecast_bias": -0.1428571428571426,
+          "location_id": 2,
+          "mae": 1.846938775510204,
+          "product_id": 11,
+          "rmse": 2.247447531793182,
+          "wape": 0.3315018315018315
+        },
+        {
+          "forecast_bias": 0.39285714285714285,
+          "location_id": 3,
+          "mae": 1.5357142857142858,
+          "product_id": 11,
+          "rmse": 1.8224786888818678,
+          "wape": 0.3333333333333333
+        },
+        {
+          "forecast_bias": 0.7500000000000002,
+          "location_id": 1,
+          "mae": 1.3724489795918369,
+          "product_id": 12,
+          "rmse": 1.751092953161609,
+          "wape": 0.37309292649098474
+        },
+        {
+          "forecast_bias": 1.392857142857143,
+          "location_id": 2,
+          "mae": 2.903061224489796,
+          "product_id": 12,
+          "rmse": 3.2693692832416597,
+          "wape": 0.5764944275582574
+        },
+        {
+          "forecast_bias": -0.24999999999999986,
+          "location_id": 3,
+          "mae": 1.6479591836734693,
+          "product_id": 12,
+          "rmse": 2.006367415026877,
+          "wape": 0.41570141570141567
+        }
+      ],
+      "series_count": 36,
+      "test_days": 28,
+      "training_days": 152,
+      "training_end_date": "2026-09-25",
+      "training_start_date": "2026-04-27"
+    }
+  ],
+  "notes": [
+    "All forecasts are generated using training-period observations only.",
+    "Forecast target is latent demand (units_demanded), not sales constrained by inventory.",
+    "WAPE is null when the aggregate actual-demand denominator is zero.",
+    "Forecast bias is mean(forecast - actual); positive values indicate overforecasting."
+  ],
+  "run_time_utc": "2026-10-23T06:16:44+00:00",
+  "series_count": 36,
+  "status": "PASS",
+  "target": "units_demanded",
+  "training_end_date": "2026-09-25",
+  "training_start_date": "2026-04-27"
+}
