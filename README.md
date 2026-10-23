@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Demand Forecasting and Inventory Optimization
 
 ## Project Overview
@@ -72,3 +73,6 @@ Forecasting and inventory recommendations depend on data quality, demand pattern
 ## License
 
 A license will be selected before public release. Until then, reuse and redistribution permissions should not be assumed.
+=======
+# AI-Powered-Demand-Forecasting-Inventory-Optimization-Platform
+>>>>>>> origin/main
